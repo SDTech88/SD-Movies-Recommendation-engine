@@ -37,4 +37,13 @@ if st.button("Recommend"):
         st.write(i)
     
     
-    
+# git init -- ti initialise .git file in your laptop/pc (make sure to install git on your laptop)
+# git status -- simply tells you which stage you are at this poin in your project.
+# git add . -- this create a list of file names you you want to upload, add . means include all files and 
+## add "file_name" means on that specific file.
+# git commit -m 'message' -- this package or segreagete content of all the file and changes which we just
+## create/mentioned using add . command. -m just means a meesage, to remember what kind of upload we had 
+## made last time.
+# git remote add origin "url"-- add origin URL to connect url of your app from github to your laptop
+# git branch -M main -- to create a specific folder or branch with the name as "main" in github, -M means renaiming
+# git puch -u origin main -- to push or upload the changed files or changes to the main branch we created.
